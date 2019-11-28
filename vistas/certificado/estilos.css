@@ -1,0 +1,58 @@
+@import url('fonts/BrixSansRegular.css');
+@import url('fonts/BrixSansBlack.css');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+p, label, span, table{
+	font-family: 'BrixSansRegular';
+	/*font-size: 20pt;*/
+}
+.header{
+	text-align: center;
+	margin-top: 4%;
+}
+.header span {
+	padding: 40px;
+	font-size: 29pt;
+
+}
+#header1{
+
+	font-size: 15pt;
+	padding-top: 30px;
+}
+
+.alumnos{
+	line-height: 90px;
+	text-align: center;
+	font-size: 20pt;
+	font-weight: bold;
+}
+.alumnos p{
+	line-height : 0px;
+	font-size: 15pt;
+}
+.curso span {
+	padding-top: 20px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 15pt;
+}
+.descripcion{
+	padding-top: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+	text-align: justify;
+	font-size: 15pt;
+	/*le-height: 30px;*/
+}
+
+.fecha{
+	padding-top: 10px;
+}
+.fecha p{
+	padding-left: 150px;
+}
